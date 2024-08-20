@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color:grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    z-index: 2;
+   top: 0px;
+   
+
+}
+h1{
+   
+    font-family: 'Sofia';
+    font-size: 22px;
+}
+span{
+    color: rgba(49, 226, 43, 0.815);
+    font-size: 25px;  
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 2rem;
+   
+    
+}
+ul a{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1rem;
+   
+}
+ul a:hover{
+    border: 1px solid black;
+}
+ .contain{
+    background-image:url("https://plus.unsplash.com/premium_photo-1719606207442-f9658ee04f1b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100VH;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+}
+.contain .page-cont{
+    position: absolute;
+    top: 50%;
+}
+h2{
+
+    font-size: 35px;
+    color: rebeccapurple;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #03e60e;
+
+}
+p{
+    color: #020202;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #03e60e;
+    text-transform: uppercase;
+    border: none;
+    
+}
+ .presentation{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 50% 1fr  ;
+  
+   
+}
+.my-images{
+    border: 1px solid rgb(24, 24, 24);
+  
+
+}
+.my-itentites{
+ border: 1px solid rgb(0, 195, 255);
+
+ 
+
+
+   
+}
+
+.name{
+    display: flex;
+    align-items: center;
+
+}
+.name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+h4{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+} 
+
+form{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
