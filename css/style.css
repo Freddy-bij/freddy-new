@@ -70,8 +70,10 @@ ul a:hover{
     top: 30%;
     width: 100%;
     
-}.my-images{
-    border: 1px solid rgb(24, 24, 24);
+}
+.my-images{
+    overflow:auto;
+    margin: 20px;
 }
 .description{
     display: flex;
@@ -168,6 +170,7 @@ p{
     display: grid;
     height: 100vh;
     grid-template-columns: 30% 1fr  ;
+ 
   
    
 }
@@ -179,10 +182,24 @@ p{
     align-items: center;
 
 }
-.name img{
-    width: 70px;
+
+.profile{
+   
+    width: 200px;
+    height: 200px;
+    
+}
+ img{
+    width: 100%;
+    height: 100%;
    
     
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
@@ -195,7 +212,7 @@ h4{
 .ab-all{
   display: grid;
   grid-template-columns: auto auto;
-  margin: 20px;
+  padding: 20px;
 }
 .ab-me{
     width: 70%;
@@ -207,6 +224,13 @@ h4{
 
 h2{
     text-transform: uppercase;
+    color: #ff3f34;
+    font-size: 24px;
+    padding-bottom: 10px;
+   
+}
+.img-3{
+    border-radius: 50%;
 }
 
 .passion{
@@ -214,3 +238,88 @@ h2{
     justify-content: center;
 }
 
+.know{
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    width: 50%;
+    gap: 30px;
+}
+.par-ski{
+ 
+    padding: 20px;
+    
+}
+
+.p-know{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.ski {
+    text-transform: uppercase;
+    color: #ff3f34;
+    font-size: 24px;
+    padding-bottom: 10px;
+ 
+}
+.cont{
+    font-size: 24px;
+    
+    padding: 20px;
+}
+.ab-cont{
+    text-transform: uppercase;
+    color: #ff3f34;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.form-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+input{
+    width: 300px;
+    outline: none;
+    background: none;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    border-bottom: 2px solid #ff3f34;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 300px;
+    outline: none;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 2px solid #ff3f34;
+    height: 100px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #ff3f34;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px; 
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: white;
+    color: #ff3f34;
+}
